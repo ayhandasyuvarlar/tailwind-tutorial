@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* buradaki layer  components html etiketlerinin içerisindeki değerlere karışmaz farklı olan veya ortak olan değerleri o ait css değerlerini ekler */
+  .btn {
+    @apply px-4 h-12 inline-flex items-center rounded-lg hover:text-3xl transition-colors;
+  }
+}
