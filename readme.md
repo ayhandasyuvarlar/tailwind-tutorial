@@ -73,3 +73,23 @@ npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch
   </body>
 </html>
 ```
+
+### Kendi özel css kod getirmek isterseniz yapacağınız tek şey "tailwind.config.js dosyasına gidip aynen şu şekilde yazmanızdır"
+
+```jsx
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        logo: "#32445a",
+      },
+      spacing: {
+        15: "3.75rem",
+      },
+    },
+  },
+  plugins: [],
+};
+```
