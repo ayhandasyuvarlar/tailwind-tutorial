@@ -93,3 +93,7 @@ module.exports = {
   plugins: [],
 };
 ```
+
+### Uygulamanın ilk kısmı bitti , şimdi ikinci kısmına başlıyalım
+
+![img](Capture.PNG)
