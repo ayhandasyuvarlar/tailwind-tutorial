@@ -43,6 +43,7 @@ const navigationTwo = [
 ];
 
 const navDiv = document.createElement("div"); // div elementi oluşturuldu.
+navDiv.classList = 'mb-10'
 navigation.forEach((item) => {
   const navA = document.createElement("a");
   navA.textContent = item.name;

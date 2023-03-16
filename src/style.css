@@ -8,7 +8,10 @@
     @apply inline-flex items-center text-white bg-logo h-10 px-5 rounded text-sm;
   }
   .header {
-    @apply h-15 w-full   border-b border-gray-100 flex justify-between items-center px-5;
+    @apply h-15 p-5 w-full   border-b border-gray-100 flex justify-between items-center px-5;
+  }
+  .card {
+    @apply col-span-2;
   }
 }
 
