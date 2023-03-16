@@ -5,6 +5,16 @@
 @layer components {
   /* buradaki layer  components html etiketlerinin içerisindeki değerlere karışmaz farklı olan veya ortak olan değerleri o ait css değerlerini ekler */
   .btn {
-    @apply px-4 h-12 inline-flex items-center rounded-lg hover:text-3xl transition-colors;
+    @apply inline-flex items-center text-white bg-logo h-10 px-5 rounded text-sm;
+  }
+  .header {
+    @apply h-15 w-full   border-b border-gray-100 flex justify-between items-center px-5;
+  }
+}
+
+@layer base {
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+  html {
+    font-family: "Montserrat", sans-serif;
   }
 }
